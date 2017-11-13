@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="www.ittepic.edu.objectanimator.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:gravity="bottom"
+            android:layout_margin="30dp">
+        <ImageView
+            android:id="@+id/faceIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_face"
+            android:tint="@color/colorPrimary" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/bounce"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bounce"/>
+        <Button
+            android:id="@+id/accelerate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Accelerate"/>
+        <Button
+            android:id="@+id/decelerate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Deacelerate"/>
+
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
